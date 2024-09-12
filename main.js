@@ -5,7 +5,7 @@ const colors = require("colors");
 const readline = require("readline");
 const { DateTime } = require("luxon");
 
-class Unionex {
+class Midas {
   constructor() {
     this.baseUrl = "https://prod-tg-app.midas.app/api"; // Updated base URL
     this.headers = {
