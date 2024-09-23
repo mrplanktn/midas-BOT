@@ -144,7 +144,7 @@ class MidasBot:
         self.play_game_if_needed(token)
         self.claim_tasks(token)
         self.check_referrals(token)
-        print(f"{Fore.WHITE}-==========[github.com/raihante/midas]==========-{Fore.RESET}")
+        print(f"{Fore.WHITE}-==========[✨ midasRWA midasRWA midasRWA midasRWA midasRWA ✨]==========-{Fore.RESET}")
 
     def get_username(self, query_id):
         timestamp = Fore.MAGENTA + get_formatted_time() + Fore.RESET
